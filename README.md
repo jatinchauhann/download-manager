@@ -9,9 +9,11 @@ Downloading, Paused, Complete Error or Cancelled. The GUI also has controls for 
 
 The Download Manager is broken into few classes for natural separation of functional components. These are-
 
-## Download.java
-## DownloadsTableModel.java
-## ProgressRenderer.java
-## DownloadManager.java
+1. Download.java
+2. DownloadsTableModel.java
+3. ProgressRenderer.java
+4. DownloadManager.java
 
 The Download Managerclass is responsible for the GUI interface and makes use of the DownloadsTableModel and ProgressRenderer classes for displaying the current lists of the downloads. The Downloads class represents a "managed" download and is responsible for performing the actula downloading of a file.
+
+
